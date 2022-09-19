@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "595646161842",
+    "project_id": "loginmovil",
+    "storage_bucket": "loginmovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595646161842:android:3a544bd2ac2b7c0e653aab",
+        "android_client_info": {
+          "package_name": "com.ista.loginmovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595646161842-ea1ggu69kqidjr01a75gbf2k4kdcmj0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ista.loginmovil",
+            "certificate_hash": "c8729f1f0d8df269e0e1796fc9611bc982de60d2"
+          }
+        },
+        {
+          "client_id": "595646161842-d0889gtj457lcausobqcacdckhs8vtp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9VrS-Eu7X1mguLpwm5_p96APP9LtjEeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595646161842-d0889gtj457lcausobqcacdckhs8vtp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
