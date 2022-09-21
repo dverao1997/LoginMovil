@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static GoogleSignInAccount account;
 
     public static final int SIGN_IN_REQUEST = 1;
+
+    private Button log=findViewById(R.id.sign_in_button);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 login();
                 break;
         }
+        Intent intent=new Intent(v.getContext(), Menu.class);
     }
 
     private void login() {

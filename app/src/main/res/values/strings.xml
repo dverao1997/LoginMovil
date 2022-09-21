@@ -5,4 +5,7 @@
     <string name="google_connect">Google+ Connect</string>
     <string name="acceder">ACCEDER</string>
     <string name="activos_fijos">Activos Fijos</string>
+    <string-array name="Opciones">
+        <item>Cerrar sesión</item>
+    </string-array>
 </resources>
