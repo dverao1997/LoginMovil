@@ -12,12 +12,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         tools:targetApi="31">
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
         <activity
             android:name=".Principal"
             android:exported="false"
-            android:theme="@style/Theme.LoginMovil"/>
+            android:theme="@style/Theme.LoginMovil" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -33,4 +35,5 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
+
 </manifest>
